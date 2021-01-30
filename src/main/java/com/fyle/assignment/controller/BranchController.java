@@ -21,12 +21,6 @@ public class BranchController {
     @Autowired
     private BranchRepository branchRepository;
 
-    @PostMapping("/api/branches")
-    public String createBank(@RequestBody Branch branch) {
-        branchRepository.save(branch);
-        return "Bank added successfully!";
-    }
-
     @GetMapping("/api/branches")
     public HashMap<String, Object> getBranchesByPage(@RequestParam(name = "page") int pageNumber,
                                                      @RequestParam(name = "items") int itemsPerPage) {

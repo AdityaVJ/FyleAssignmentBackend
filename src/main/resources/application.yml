@@ -1,3 +1,5 @@
+
+
 spring:
   datasource:
     url: ${DATABASE_URL}
@@ -11,3 +13,5 @@ spring:
         dialect: org.hibernate.dialect.PostgreSQLDialect
     hibernate:
       ddl-auto: update
+server:
+  port: ${PORT}

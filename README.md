@@ -47,11 +47,11 @@ The following endpoints will be exposed upon starting the project:
 **Method:** `GET`
 **Params:** `page`,`items`.
 
-####Sample Request:
+#### Sample Request:
 
 http://localhost:8080/api/branches?items=2&page=0
 
-####Sample Response:
+#### Sample Response:
 
 ```json
 {
@@ -84,11 +84,11 @@ http://localhost:8080/api/branches?items=2&page=0
 **Method:** `GET`
 **Params:** `offset`,`limit`,`q`.
 
-####Sample Request:
+#### Sample Request:
 
 http://localhost:8080/api/branches/autocomplete?offset=1&limit=2&q=kolkata
 
-####Sample Response:
+#### Sample Response:
 
 ```json
 [
@@ -116,11 +116,11 @@ http://localhost:8080/api/branches/autocomplete?offset=1&limit=2&q=kolkata
 **Method:** `GET`
 **Params:** `offset`,`limit`,`q`.
 
-####Sample Request:
+#### Sample Request:
 
 http://localhost:8080/api/branches/search?offset=1&limit=2&q=VIP%20Road
 
-####Sample Response:
+#### Sample Response:
 
 ```json
 [
